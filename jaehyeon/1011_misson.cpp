@@ -3,7 +3,7 @@
 #include <limits.h>
 #include <stdbool.h>
 
-int solve() {
+int solve1() {
 	int A, B;
 
 	while (A != 0 || B != 0) {
@@ -14,7 +14,7 @@ int solve() {
 	return 0;
 }
 
-int solve() {
+int solve2() {
 	int N;
 	scanf("%d", &N);
 	for (int a = 1; a < 10; a++) {
@@ -23,7 +23,7 @@ int solve() {
 	return 0;
 }
 
-int solve() {
+int solve3() {
 	int x, y;
 	scanf("%d %d", &x, &y);
 	if (x > 0 && y > 0)
@@ -37,7 +37,7 @@ int solve() {
 	return 0;
 }
 
-int solve() {
+int solve4() {
 	int N, Line = 1;
 	scanf("%d", &N);
 	while (N != 0) {
