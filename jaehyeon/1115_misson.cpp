@@ -17,7 +17,6 @@ int solve_1() {
 	return 0;
 }
 
-
 int solve_2() {
 	int i = 0;
 	char s1[100];
@@ -33,10 +32,11 @@ int solve_2() {
 	return 0;
 }
 
+
 int solve_3() {
 	int count = 0;
 	char a[100];
-	gets_s(a, sizeof(a));
+	scanf(a, sizeof(a));
 	char k;
 	scanf("%c", &k);
 
